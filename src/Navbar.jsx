@@ -1,6 +1,8 @@
 import React from "react";
 import img from "./assets/img1.png";
 
+
+// Navbar
 const Navbar = () => {
   return (
     <section className="bg-[#2D2D2D] h-[100px] flex justify-between items-center px-[30px]">

@@ -1,4 +1,6 @@
 // MovieList.js
+
+// Importation 
 import React from 'react';
 import MovieCard from './MovieCard';
 import Jmj from './assets/jmj.png';
@@ -14,7 +16,7 @@ import fg from './assets/fg.jpeg'
 import spirit from './assets/spirit.jpeg'
 import split from './assets/split.webp'
 
-
+// Data
 const MovieList = () => {
   const films = [
     { name: "Jumanji", image: Jmj, link: "https://www.netflix.com/watch/80192646?trackId=255824129&tctx=0%2C1%2C645c6ef6-405c-42cf-9850-11b0ffde8c52-318290276%2C645c6ef6-405c-42cf-9850-11b0ffde8c52-318290276%7C2%2Cunknown%2C%2C%2CtitlesResults%2C80192646%2CVideo%3A80192646%2CminiDpPlayButton", rate: 10 },
@@ -33,6 +35,7 @@ const MovieList = () => {
     
   ];
 
+  // Map
   return (
     <section>
       <div className="flex gap-10 p-[60px] flex-wrap justify-center">

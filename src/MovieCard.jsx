@@ -1,7 +1,7 @@
 import React from "react";
 
 
-
+// Cadre 
 const MovieCard = ({ name, image, rate, link }) => {
   return (
     <div className="bg-[#2D2D2D] w-[200px] text-center rounded-xl overflow-hidden relative max-w-xs bg-cover bg-no-repeat transition duration-800 ease-in-out hover:scale-110">
