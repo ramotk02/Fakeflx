@@ -17,7 +17,9 @@ import spirit from './assets/spirit.jpeg'
 import split from './assets/split.webp'
 
 // Data
-const MovieList = () => {
+
+
+const MovieList = ({searchValue}) => {
   const films = [
     { name: "Jumanji", image: Jmj, link: "https://www.netflix.com/watch/80192646?trackId=255824129&tctx=0%2C1%2C645c6ef6-405c-42cf-9850-11b0ffde8c52-318290276%2C645c6ef6-405c-42cf-9850-11b0ffde8c52-318290276%7C2%2Cunknown%2C%2C%2CtitlesResults%2C80192646%2CVideo%3A80192646%2CminiDpPlayButton", rate: 10 },
     { name: "The Flash", image: flash, link: "https://www.netflix.com/search?q=the%20fla&jbv=80027042", rate: 6 },
@@ -39,14 +41,14 @@ const MovieList = () => {
   return (
     <section>
       <div className="flex gap-10 p-[60px] flex-wrap justify-center">
-        {films.map((film, index) => (
-          <MovieCard
-            key={index}
-            name={film.name}
-            image={film.image}
-            link={film.link}
-            rate={film.rate}
-          />
+        {films.filter(el => el.name.toLowerCase().includes(searchValue)).map((film, index) => (
+        <MovieCard
+          key={index}
+          name={film.name}
+          image={film.image}
+          link={film.link}
+          rate={film.rate}
+        />
         ))}
       </div>
     </section>
