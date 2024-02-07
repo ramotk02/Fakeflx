@@ -12,6 +12,22 @@ const Navbar = () => {
         </a>
       </div>
 
+      <div>
+        <dir>
+          <nav>
+            <ul><li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/blogs">Blogs</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li></ul>
+          </nav>
+        </dir>
+      </div>
+
       <div className="pr-[25px]">
         <input
           type="search"

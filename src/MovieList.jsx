@@ -33,6 +33,12 @@ const MovieList = ({searchValue}) => {
     { name: "Forrest Gump", image: fg, link: "https://www.netflix.com/ma-fr/title/60000724", rate: 10 },
     { name: " Spirit", image: spirit, link: "https://www.netflix.com/ma-fr/title/60020810", rate: 10 },
     { name: " Split", image: split, link: "https://www.netflix.com/ma-fr/title/80124506", rate: 10 },
+    { name: " Split", image: split, link: "https://www.netflix.com/ma-fr/title/80124506", rate: 10 },
+    { name: " Split", image: split, link: "https://www.netflix.com/ma-fr/title/80124506", rate: 10 },
+    { name: " Split", image: split, link: "https://www.netflix.com/ma-fr/title/80124506", rate: 10 },
+    { name: " Split", image: split, link: "https://www.netflix.com/ma-fr/title/80124506", rate: 10 },
+    { name: " Split", image: split, link: "https://www.netflix.com/ma-fr/title/80124506", rate: 10 },
+
 
     
   ];
